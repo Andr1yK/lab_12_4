@@ -8,6 +8,11 @@ add_executable(
   src/main.cpp
 )
 
+add_executable(
+  demo_rec
+  src/main_rec.cpp
+)
+
 add_subdirectory(
   "${CMAKE_CURRENT_SOURCE_DIR}/gtest"
   gtest
